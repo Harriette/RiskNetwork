@@ -1,0 +1,35 @@
+risk_ID,name,loss,firm_ID,department_ID,process_ID,description,prob_rating,severity_rating,rag_rating,created_at,created_by,modified_at,modified_by,is_deleted
+A1,Poor actuarial plan,0,1,1,5,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A2,Poor  choice of outsourcing,0,1,1,7,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A3,Difficulty recruiting,0,1,1,7,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A4,Choose wrong staff,0,1,1,7,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A5,Inadequate compensation,0,1,1,7,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A6,Insufficient career opps,0,1,1,4,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A7,Inadequate skills/ experience,0,1,1,4,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A8,Poor management,0,1,1,4,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A9,Concentration of knowledge,0,1,1,4,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A10,Staff leave,1,1,1,7,TM incurs recruitment costs.  Increases probability of other risks.,3,2,Amber,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A11,Insufficient development,0,1,1,8,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A12,Insufficient IT resource,0,1,1,8,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A13,Poor data quality,0,1,1,3,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A14,Insufficient project time,0,1,1,5,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A15,Inadequate resource for project,0,1,1,5,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A16,Inadequate processes/ systems,0,1,1,8,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A17,Poor external communication,0,1,1,1,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A18,Inadequate data checks,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A19,Inadequate data/info,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A20,Inconsistent calcs,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A21,Neglect  key factors,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A22,Error in calcs,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A23,Inefficient,1,1,1,6,Inefficient use of resources increases TM and club expenses due to additional staff requirements or excessive outsourcing.,2,2,Green,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A24,Inadequate documentation,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A25,Breach regulations,1,1,1,2,"Actuarial work is not compliant with regulations, leading to fines/sanctions against clubs or significant remedial action (with cost implications).",2,2,Green,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A26,Breach professional standards,1,1,1,2,Actuarial work is not compliant with actuarial standards leading to fines or sanctions against the individual responsible.,1,2,Green,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A27,Inadequate peer review,0,1,1,2,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A28,Lack of independence,0,1,1,2,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A29,Poor internal communication,0,1,1,1,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A30,Inappropriate advice,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A31,Inadequate technical skills of user,0,1,1,7,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A32,Inappropriate decisions,1,1,1,6,"Clubs take inappropriate decisions from actuarial advice, due to either poor advice or lack of understanding.",,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A33,Innacurate reporting,1,1,1,6,Clubs report inaccurate figures as a result of inappropriate or inaccurate actuarial advice.,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0
+A34,Poor choice of model,0,1,1,6,,,,,31/08/2020  13:35:49,admin@risknetwork.com,31/08/2020  13:35:49,admin@risknetwork.com,0

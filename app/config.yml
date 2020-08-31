@@ -1,0 +1,8 @@
+default:
+   drv: !expr RMariaDB::MariaDB()
+   user: 'root' 
+   password: 'example'
+   host: 'localhost' 
+   port: 3306
+   dbname: 'risknetwork'
+   
