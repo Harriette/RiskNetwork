@@ -98,8 +98,15 @@ SELECT
   observeEvent(risks(), {
     out <- risks()
     
-    ids <- out$risk_ID
+    # filter out unwanted columns
+    out <- out %>% 
+      select(risk_ID, name, process,
+             prob_rating, severity_rating, rag_rating,
+             loss, description,
+             firm, department)
     
+    #Create action buttons
+    ids <- out$risk_ID
     actions <- purrr::map_chr(ids, function(risk_ID) {
       paste0(
         '<div class="btn-group" style="width: 75px;" role="group" aria-label="Basic example">
@@ -139,10 +146,8 @@ SELECT
     datatable(
       out,
       rownames = FALSE,
-      # colnames = c('Model', 'Miles/Gallon', 'Cylinders', 'Displacement (cu.in.)',
-      #              'Horsepower', 'Rear Axle Ratio', 'Weight (lbs)', '1/4 Mile Time',
-      #              'Engine', 'Transmission', 'Forward Gears', 'Carburetors', 'Created At',
-      #              'Created By', 'Modified At', 'Modified By'),
+      colnames = c('ID', 'Name', 'Process', 'Probability', 'Severity', 'RAG', 
+                   'Is Loss', 'Description', 'Firm', 'Department'),
       selection = "none",
       class = "compact stripe row-border nowrap",
       # Escape the HTML in all except 1st column (which has the buttons)
@@ -165,11 +170,7 @@ SELECT
           list(targets = 0, orderable = FALSE)
         )
       )
-    ) %>%
-      formatDate(
-        columns = c("created_at", "modified_at"),
-        method = 'toLocaleString'
-      )
+    )
     
   })
   
