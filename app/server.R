@@ -6,6 +6,8 @@ server <- function(input, output, session) {
   session$userData$email <- 'myname@me.com'
   session$userData$db_trigger <- reactiveVal(0)
   
+  moduleServer("risk_network", risk_network_module)
   moduleServer("risks_table", risks_table_module)
   
+    
 }

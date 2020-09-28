@@ -9,6 +9,8 @@ library(shinycssloaders)
 library(shinyFeedback)
 library(dplyr)
 library(lubridate)
+library(igraph)
+library(visNetwork)
 
 dw <- config::get()
 
